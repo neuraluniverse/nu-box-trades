@@ -23,8 +23,8 @@ def load_csv_from_s3():
 df = load_csv_from_s3()
 
 cols = [
-    'Ticker', 'Signal Type', 'Entry Date', 'Entry Time PST', 
-    'Box Min', 'Box Max', 'Gap Pct'
+    'Ticker', 'Signal Type', 'Entry Date', 'Entry Time PST', 'Daily Close', 
+    'Box Min', 'Box Max', 'Gap Pct', 
 ]
 df = df[cols]
 #sort df by entry date and entry time descending
